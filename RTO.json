@@ -1,0 +1,94 @@
+{
+ "code": "M8205",
+ "connector": "RTO-144",
+ "type": "Audio Distribution Amplifier",
+ "series": null,
+ "contacts": "15 contacts",
+ "verified": null,
+ "derived": true,
+ "variant_of": null,
+ "pins": [
+  {
+   "pin": "1",
+   "signal": "INPUT SIGNAL TO THE AMPLIFIER",
+   "kind": "in",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8205/SCHEMATICS/1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "13",
+   "signal": "±22 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8205/SCHEMATICS/1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "15",
+   "signal": "±22 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8205/SCHEMATICS/1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "A",
+   "signal": "INPUT SIGNAL TO THE AMPLIFIER",
+   "kind": "in",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8205/SCHEMATICS/1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "B",
+   "signal": "INPUT SIGNAL TO THE AMPLIFIER",
+   "kind": "in",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8205/SCHEMATICS/1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "P",
+   "signal": "±22 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8205/SCHEMATICS/1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  },
+  {
+   "pin": "S",
+   "signal": "±22 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": "prose",
+   "file": "Modules/AMPLIFIERS/M8205/SCHEMATICS/1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp",
+   "page": 1
+  }
+ ],
+ "straps": [],
+ "power": [],
+ "sources": [
+  "Modules/AMPLIFIERS/M8205/SCHEMATICS/1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp"
+ ]
+}
