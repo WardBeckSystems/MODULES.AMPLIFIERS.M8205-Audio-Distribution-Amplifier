@@ -53,7 +53,7 @@ WBS WARD-Beck SYSTEMs
 
 ```json
 {
- "file": "Modules/AMPLIFIERS/M8205/PHOTOS/1995 - M8205 - Distribution Amp 001.jpg",
+ "file": "Modules/AMPLIFIERS/M8205/MANUALS/1995 - M8205 - Distribution Amp 001.jpg",
  "sha256": "a033d823abb535c860b1badd7ab7b73d12fc49350a915f5064b9cec5dc0eb1c4",
  "kind": "module",
  "models": [

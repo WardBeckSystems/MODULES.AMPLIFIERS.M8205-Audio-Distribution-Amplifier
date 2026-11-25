@@ -49,7 +49,7 @@ WBS WARD-BECK SYSTEMS Ward-Beck Systems Ltd. 841 Progress Avenue, Scarborough On
 
 ```json
 {
- "file": "Modules/AMPLIFIERS/M8205/PHOTOS/1995 - M8205 - Distribution Amp 002.jpg",
+ "file": "Modules/AMPLIFIERS/M8205/MANUALS/1995 - M8205 - Distribution Amp 002.jpg",
  "sha256": "9aefca9f2327e8494c2b6d2b47dcddf55821786940fa3140f3252ba3c054d82b",
  "kind": "module",
  "models": [
