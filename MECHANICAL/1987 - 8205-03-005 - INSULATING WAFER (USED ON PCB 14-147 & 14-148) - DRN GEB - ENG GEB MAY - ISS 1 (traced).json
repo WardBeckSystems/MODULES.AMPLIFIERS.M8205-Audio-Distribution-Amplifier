@@ -1,0 +1,121 @@
+{
+ "drawing": "Modules/AMPLIFIERS/M8205/MECHANICAL/1987 - 8205-03-005 - INSULATING WAFER (USED ON PCB 14-147 & 14-148) - DRN GEB - ENG GEB MAY - ISS 1.png",
+ "version": 1,
+ "trace": "_traces/a34550638c31bad6.svg",
+ "sheet": {
+  "number": "B 8205-03-005",
+  "title": "INSULATING WAFER (USED ON PCB 14-147 &amp; 14-148)",
+  "dtype": "03",
+  "type": "mechanical",
+  "size": "B",
+  "size_assumed": false,
+  "rotate": 0,
+  "px": [2000, 1414],
+  "mm": [431.8, 305.3],
+  "mm_per_px": 0.2159
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [-0.1, 7.1, 431.9, 295.3],
+ "outlines": {
+  "line": {"rings": 110, "straight": {"n": 2175, "mm": 5322.5}, "curved": {"n": 214, "mm": 298.5}},
+  "text": {"rings": 333, "straight": {"n": 2535, "mm": 3414.1}, "curved": {"n": 712, "mm": 1142.5}},
+  "tb": {"rings": 5, "straight": {"n": 91, "mm": 211.5}, "curved": {"n": 6, "mm": 6.2}}
+ },
+ "centre_lines": {
+  "layers": {
+   "line": {"paths": 1382, "straight": {"n": 1449, "mm": 2259.4}, "curved": {"n": 12, "mm": 10.8}},
+   "text": {"paths": 1540, "straight": {"n": 2243, "mm": 2202.7}, "curved": {"n": 0, "mm": 0.0}},
+   "tb": {"paths": 144, "straight": {"n": 163, "mm": 810.0}, "curved": {"n": 0, "mm": 0.0}}
+  },
+  "closed_paths": 59,
+  "orientation": {"horizontal": {"n": 1042, "mm": 2475.0}, "vertical": {"n": 884, "mm": 1130.6}, "diagonal": {"n": 1929, "mm": 1666.6}},
+  "note": "straight runs by direction (within 5°); curved = runs that fit a circle"
+ },
+ "circles": [
+  {"c": [368.8, 293.4], "r": 1.4, "kind": "arc", "span": 127, "from": ["centre line"], "start": 153},
+  {"c": [368.7, 294.4], "r": 1.4, "kind": "arc", "span": 141, "from": ["centre line"], "start": 345},
+  {"c": [150.4, 200.5], "r": 1.0, "kind": "arc", "span": 127, "from": ["centre line"], "start": 18},
+  {"c": [189.7, 200.5], "r": 1.0, "kind": "arc", "span": 127, "from": ["centre line"], "start": 18}
+ ],
+ "boxes": [
+  {"mm": [143.4, 186.3, 195.6, 205.8], "w": 52.2, "h": 19.5, "from": "ring"},
+  {"mm": [360.1, 82.9, 425.3, 89.0], "w": 65.2, "h": 6.0, "from": "ring", "words": ["REVISION"], "in_title_block": true},
+  {"mm": [333.3, 82.9, 346.1, 88.7], "w": 12.7, "h": 5.8, "from": "ring", "words": ["ISSUE"], "in_title_block": true},
+  {"mm": [346.7, 82.9, 359.5, 88.7], "w": 12.7, "h": 5.9, "from": "ring", "words": ["DATE"], "in_title_block": true},
+  {"mm": [300.5, 58.0, 332.7, 63.9], "w": 32.2, "h": 5.9, "from": "ring", "words": ["GEB", "DRN_"], "in_title_block": true},
+  {"mm": [300.5, 51.4, 332.7, 57.6], "w": 32.2, "h": 6.2, "from": "ring", "words": ["ENG. GEB `/87"], "in_title_block": true},
+  {"mm": [300.5, 44.7, 332.7, 50.7], "w": 32.2, "h": 6.0, "from": "ring", "words": ["CKD"], "in_title_block": true},
+  {"mm": [300.5, 38.2, 332.7, 44.0], "w": 32.2, "h": 5.8, "from": "ring", "words": ["APP"], "in_title_block": true},
+  {"mm": [333.6, 25.0, 346.1, 37.6], "w": 12.5, "h": 12.6, "from": "ring"},
+  {"mm": [300.5, 25.0, 332.7, 37.6], "w": 32.2, "h": 12.5, "from": "ring", "words": ["SCALE"]},
+  {"mm": [346.7, 24.8, 412.2, 37.6], "w": 65.4, "h": 12.7, "from": "ring", "words": ["8205-03-005"]}
+ ],
+ "text": {
+  "words": 43,
+  "lines": [
+   {"mm": [161.1, 249.4, 178.3, 254.2], "text": "2.00"},
+   {"mm": [159.6, 241.4, 173.6, 245.7], "text": "1.75"},
+   {"mm": [150.3, 233.2, 163.2, 238.7], "text": "1-25"},
+   {"mm": [145.5, 225.6, 160.0, 231.1], "text": "0-75"},
+   {"mm": [120.0, 217.6, 134.1, 221.9], "text": "0.25"},
+   {"mm": [219.4, 219.1, 251.7, 224.7], "text": "0.125 DIA"},
+   {"mm": [220.0, 213.7, 250.2, 219.5], "text": "4 HOLES"},
+   {"mm": [102.8, 209.0, 122.8, 213.8], "text": "0 - 187"},
+   {"mm": [103.4, 193.2, 124.4, 198.7], "text": "0.750"},
+   {"mm": [121.3, 137.3, 146.8, 143.8], "text": "NOTES;"},
+   {"mm": [126.9, 127.6, 251.3, 134.1], "text": "MATERIAL DUPONT KAPTON XT"},
+   {"mm": [174.0, 121.1, 268.1, 127.8], "text": "SIMILAR to BERGQUIST"},
+   {"mm": [176.2, 115.5, 201.7, 121.0], "text": "kK4-37"},
+   {"mm": [206.8, 115.5, 267.5, 121.2], "text": "To-220 MuLTIPLE"},
+   {"mm": [120.5, 104.5, 196.7, 111.9], "text": "2.ELNSH CLEAN"},
+   {"mm": [120.5, 94.8, 177.0, 101.7], "text": "3. TOLERANCE"},
+   {"mm": [194.5, 95.2, 209.4, 101.9], "text": "015"},
+   {"mm": [333.3, 83.1, 359.3, 88.6], "text": "ISSUE DATE"},
+   {"mm": [383.0, 83.8, 402.9, 88.6], "text": "REVISION"},
+   {"mm": [309.4, 68.9, 431.8, 77.0], "text": "WBS WARD-BECK SYSTEMS"},
+   {"mm": [301.0, 58.7, 311.1, 63.5], "text": "DRN_"},
+   {"mm": [313.3, 58.3, 326.9, 63.8], "text": "GEB"},
+   {"mm": [301.0, 51.8, 332.3, 57.1], "text": "ENG. GEB `/87"},
+   {"mm": [354.1, 50.5, 421.4, 57.0], "text": "INSULATING WAFER"},
+   {"mm": [301.0, 45.3, 311.1, 50.1], "text": "CKD"},
+   {"mm": [339.0, 44.0, 374.4, 50.5], "text": "(USED ON"},
+   {"mm": [376.7, 44.0, 431.8, 50.5], "text": "PcB 14./47 $ /4./48"},
+   {"mm": [302.0, 38.9, 310.7, 43.2], "text": "APP"},
+   {"mm": [309.6, 33.0, 323.0, 37.8], "text": "SCALE"},
+   {"mm": [419.7, 32.4, 431.6, 36.7], "text": "ISSUE"},
+   {"mm": [355.8, 27.9, 408.7, 34.6], "text": "8205-03-005"}
+  ],
+  "scale": null
+ },
+ "title_block": {
+  "mm": [292.3, 26.3, 431.8, 94.6],
+  "from": "title-block words (training set)",
+  "text": [
+   "ISSUE DATE",
+   "REVISION",
+   "WBS WARD-BECK SYSTEMS",
+   "DRN_",
+   "GEB",
+   "ENG. GEB `/87",
+   "INSULATING WAFER",
+   "CKD",
+   "(USED ON",
+   "PcB 14./47 $ /4./48",
+   "APP",
+   "SCALE",
+   "ISSUE",
+   "8205-03-005"
+  ]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** mechanical B 8205-03-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)",
+  "- **Ink extent:** 0–432 mm across, 7–295 mm up",
+  "- **Outlines:** line 110 rings, 2,175 straight (5,322 mm) / 214 curved (298 mm); text 333 rings, 2,535 straight (3,414 mm) / 712 curved (1,142 mm); tb 5 rings, 91 straight (212 mm) / 6 curved (6.2 mm)",
+  "- **Centre lines:** 3,066 paths (59 closed); straight 5,272 mm, curved 10.8 mm; horizontal 2,475 mm, vertical 1,131 mm, diagonal 1,667 mm",
+  "- **Circles and arcs:** 0 circles, 4 arcs",
+  "- **Closed boxes:** 11 (7 in the title block); named: SCALE; 8205-03-005",
+  "- **Words (OCR):** 43 in 31 lines: 2.00 · 1.75 · 1-25 · 0-75 · 0.25 · 0.125 DIA · 4 HOLES · 0 - 187 · 0.750 · NOTES; · MATERIAL DUPONT KAPTON XT · SIMILAR to BERGQUIST",
+  "- **Title block:** (292, 26)–(432, 95) mm: ISSUE DATE · REVISION · WBS WARD-BECK SYSTEMS · DRN_ · GEB · ENG. GEB `/87 · INSULATING WAFER · CKD · (USED ON · PcB 14./47 $ /4./48 · APP · SCALE · ISSUE · 8205-03-005"
+ ]
+}
