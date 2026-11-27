@@ -13,6 +13,176 @@ Ward-Beck Systems M8205, 1986|19. Wiki page: [M8205 on WBSps.ca](https://wardbec
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 2 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 26 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [4 topics](FORUM.md): what owners and technicians said about it.
+
+## Circuit description
+
+From [1995 - M8205 - 8205-02-001 - COMPONENT LAYOUT.wp](MANUALS/1995%20-%20M8205%20-%208205-02-001%20-%20COMPONENT%20LAYOUT.wp) page 1 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+4 Parts List 4-1 to 4-4
+
+5 Drawings:
+
+Schematic B 8205-02-001 Component Layout B 8205-06-001 (Note: 0 dBu = 0.774V rms)
+
+Gain: (Bridging) +30 dB to -6 dB continuously variable. (Bridging Gain).
+
+Frequency Response: +/-0.1 dB 15 Hz to 25 kHz.
+
+Noise: 120 dB below maximum output at unity gain.
+
+104 dB below the nominal +8 dBm output level at unity gain.
+
+75 dB below the nominal +8 dBm output level at maximum gain. (measured with an average responding meter over a 20 Hz to 20 kHz bandwidth).
+
+Harmonic Distortion: Less than 0.01% 15Hz to 25 kHz, up to +24 dBm output level with 8 isolated outputs simultaneously driven. (Typically less than 0.005%).
+
+Input Level: -22 dBu to +14 dBu nominal, for +8 dBm output. +30 dBm maximum.
+
+Input Impedance: 30,000 ohms or greater, balanced.
+
+Source Impedance: 600 ohms or less, balanced.
+
+Common Mode Rejection: Greater than 80 dB, 20 Hz to 20 kHz.
+
+Common Mode Voltage: +/-25 volts peak.
+
+Output Level: +8 dBm nominal, +24 dBm maximum at each output, up to 8 outputs maximum.
+
+Output Impedance: 600 ohms resistive, each output actively balanced.
+
+Load Impedance: 600 ohms balanced for each isolated output.
+
+Output Isolation: Greater than 85 dB, 15 Hz to 25 kHz. Better than 95 dB mid band.
+
+Output Offset: Less than +/-500 microvolts.
+
+Phasing: The numbered terminal of the input pair and the numbered terminal of the output pair are in phase.
+
+Power Requirements: +/-22 volts DC, 40 mA idling, 190 mA full load output.
+
+Ambient Temperature: 0 to 50 degrees Celsius.
+
+Dimensions: 1.00&quot; wide x 2.75&quot; high x 10.60&quot; deep.
+
+(25.4 mm x 70.0 mm x 270.0 mm).
+
+Weight: 0.5 lbs (227 gms).
+
+**GENERAL**
+
+The M8205 Audio Distribution Amplifier was designed to be a transparent component to an audio distribution system. Its beyond the state of the art technical performance along with ultra reliability will result in years of trouble free service.
+
+The input circuitry is configured to provide an actively balanced bridging load to the audio source. It rejects large common mode voltages that may exist between the source and destination points of signal path.
+
+The front panel continuously variable sensitivity control covers a 36 dB gain range. This gain range accommodates input signal levels from -22 dBm to +14 dBm fora nominal +8 dBm output signal level. The sensitivity adjustment is normally made via a small screwdriver, optionally this control maybe supplied with a small trim setting knob.
+
+The ultra low noise characteristics of the preamplifier circuity result ina signal to noise ration of greater than 104 dB at the unity gain sensitivity setting, decreasing to only 75 dB at a -22 dBm input sensitivity.
+
+The eight actively balanced 600 ohm outputs normally operate at a nominal signal level of +8 dBm. a maximum output capability of +24 dBm is provided with all outputs simultaneously loaded. The output splitter networks are integral to the amplifier card assembly, providing greater than 95 dB of isolation between individual outputs.
+
+The compact size and low standby power requirements of this amplifier permit high density audio distribution systems to be configured. The MF82 mounting frame houses twelve M8205 Audio Distribution Amplifiers, with two redundant M8245 Power supplies in only two rack units of a standard nineteen inch equipment rack.
+
+Input
+
+The input signal to the amplifier is applied at connector pins 1 &amp; A, and the input shield connects to pin B.
+
+R1 and R2 sets the amplifier's input impedance to 30,000 ohms. IC U1 with its associated components makeup the preamplifier circuitry. CR1 through CR4 provide limiting to excessively applied input signal levels.
+
+C4 and R9 are adjusted to provide optimum common mode signal rejection across the audio band.
+
+The front panel sensitivity control R14A/R14B controls the amount of feedback that is applied around preamplifier IC U1B and buffer amplifier U2A. This two stage sensitivity control arrangement results in very high signal to noise characteristics being maintained over wide gain variations.
+
+The audio output signal from buffer amplifier U2A is coupled to the output power amplifier stages through coupling capacitor C10.
+
+Output
+
+The actively balanced output power amplifier is composed of two sections. The upper half comprising of driver U3 and complimentary power transistors Q5 and Q6, and the lower half consisting of U4 and complimentary power transistors Q2 and Q3.
+
+This power output stage is capable of delivering in excess of 4 watts continuously with no detrimental effects. A shorted output will have very little affect on the remaining outputs.
+
+Q1 and Q4 are bias setting transistors which thermally track the amplifier's ambient temperature, thereby maintaining the correct quiescent currents for the complimentary output power transistor.
+
+DC output offset voltages maybe trimmed down to the microvolt region by adjusting R19 and R36. Once set there is little need for making further adjustment, only in the event that either IC U3 or U4 is replaced. Since the two power output stages are DC coupled R19 should be adjusted first and then R36.
+
+Power Supply Decoupling
+
+The ±22 volt DC supply bus voltages appearing at the amplifier connector pins 15 &amp; Sand 13 &amp; Pare isolated from the amplifier circuitry via fusing resistors R52 and R53. The incoming ±22 volt supply voltages are filtered by C18 through C21, after which they connect directly to the amplfier's power output stages.
+
+Q7 and Q8 form the positive and negative supply decouplers for the preamplifier and buffer IC's U1 and U2. These decoupling circuits filter and drop the supply voltages to ±18 volts.
+
+The typical quiescent supply current for the M8205 is 35 mA. At the full rated output of +24 dBm into eight 600 ohm loads the supply current is 190 mA. C1 Capacitor 220 uF/10 V Kemet T390F227M010AS
+
+**C1A &quot; SOT**
+
+C2 &quot; 220 uF/10 V Kemet T390F227M010AS
+
+**C2A &quot; SOT**
+
+C3 &quot; 15 pF Philips 2222-638-10159 C4 &quot; 2-18 pF &quot; 2222-809-05003 C5 &quot; 10 uF/35 V Kemet T390C106M035AS
+
+C6 &quot; 10 pF Philips 2222-638-10109 C7 &quot; 10 uF/35 V Kemet T390C106M035AS C8 &quot; 0.1 uF/100 V Sprague 1C10X7R104M050B C9 &quot; 0.1 uF/100 V &quot; &quot; C10 &quot; 68 uF/10 V Kemet T390D686M010AS
+
+C11 &quot; 56 pF Philips 2222-638-46569 C12 &quot; 22 pF &quot; 2222-638-10229 C13 &quot; 10 uF/35 V Kemet T390C106M035AS C14 &quot; 4.7 uF/10V &quot; T390B475M010AS C15 &quot; 10 pF Philips 2222-638-10109
+
+C16 &quot; 10 uF/35 V Kemet T390C106M035AS C17 &quot; 4.7 uF/10V &quot; T390B475M010AS C18 &quot; 22 uF/35 V &quot; T390E226M035AS C19 &quot; 22 uF/35 V &quot; &quot; C20 &quot; 100 uF/25 V Philips 03116101
+
+C21 &quot; 100 uF/25 V &quot; &quot; C22 &quot; 10 uF/35 V Kemet T390C106M035AS C23 &quot; 10 uF/35 V &quot; &quot; C24 &quot; 22 uF/25 V Siemens 85200 C25 &quot; 22 uF/25 V &quot; &quot;
+
+C26 &quot; 15 pF Philips 2222-638-10159 C27 &quot; 15 pF &quot; &quot; C28 &quot; 33 pF &quot; 2222-638-10339 C29 &quot; 100 pF &quot; 2222-638-58101 C30 &quot; 47 pF &quot; 2222-638-34479
+
+C31 &quot; 47 pF &quot; &quot;
+
+CR1 to Diode Fairchild 1N4148
+
+Q1 Transistor Na­tional 2N4401
+
+**Q8 &quot; &quot; 2N6730**
+
+R1 Resistor 1/4W 1% 16K2 Philips MR25 F
+
+**R8 &quot; &quot; 8K25 &quot; &quot;**
+
+R9 Potentiometer 5K Bourns 3006P 5K R10 Resistor 1/4W 1% 8K25 Philips MR25 F
+
+**R13 &quot; &quot; 3K &quot; &quot;**
+
+R14 Potentiometer 5K Clarostat 10-065 R15 Resistor 1/4W 5% 30K Philips CR25
+
+**R18 &quot; &quot; 10K &quot; &quot;**
+
+R19 Potentiometer 100K Bourns 3006P 100K R20 Resistor 1/4W 5% 22K Philips CR25
+
+**R23 &quot; &quot; 6K8 &quot; &quot;**
+
+R24 Resistor 1/4W 5% 5K6 Philips CR25
+
+**R26 &quot; &quot; 2.2 &quot; &quot;**
+
+R27 to &quot; 1/2W 1% 301 &quot; MR30 F
+
+**R35 &quot; 1/4W 1% 4K75 &quot; MR25 F**
+
+R36 Poten­tiometer 100K Bourns 3006P 100K
+
+R37 Resistor 1/4W 5% 47K Philips CR25
+
+**R43 &quot; &quot; 2.2 &quot; &quot;**
+
+R44 to &quot; 1/2W 1% 301 &quot; MR30 F
+
+**R59 &quot; &quot; 30K &quot; &quot;**
+
+U1 Integrated Circuit National LM833N
+
+</details>
+
+<!-- /module data -->
+
 ## Photos
 
 _Photographs of the module itself: front, back, inside, racked._
