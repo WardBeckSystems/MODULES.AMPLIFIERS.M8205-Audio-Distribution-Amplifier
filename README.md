@@ -5,12 +5,11 @@ Ward-Beck Systems M8205, 1986|19. Wiki page: [M8205 on WBSps.ca](https://wardbec
 | Folder | What is in it | Files |
 |---|---|---|
 | [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 6 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 22 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 3 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 6 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 14 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 3 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 21 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 2 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 5 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 13 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 2 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 26 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -203,7 +202,14 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1hds95EEJkOAdQ4MhwGljZhM7_g1Kpo4n/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1hds95EEJkOAdQ4MhwGljZhM7_g1Kpo4n" width="240" alt="1990 - M8205 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON.jpg"></a><br><sub>1990|23 · DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON · <a href="MECHANICAL/1990%20-%20M8205%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
-Not on Google Drive yet: `1986 - 8205-03-003 - HEATSINK USED ON 14-147 & 14-148 PCB (M8205 & M8206 DA) - DRN J - ISS 1.png`, `1987 - 8205-03-005 - INSULATING WAFER (USED ON PCB 14-147 & 14-148) - DRN GEB - ENG GEB MAY - ISS 1.png`, `1989 - 8205-03-004 - HANDLE P.C. BOARD PULLER USED ON D8212 FRAME - DRN J - ISS 2.png`
+## 3-D model
+
+[`MECHANICAL/M8205.stl`](MECHANICAL/M8205.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M8205)
+
+- **Size:** 41 × 178 mm panel, 165 mm deep, 3.2 mm plate (assumed: 1.6" x 7" x 6.5", the common module)
+- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M8205 - front panel.svg`)
+- no drawing of the front panel: the panel is blank
+- Made by `tools/module_models.py` (→ `MECHANICAL/M8205.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
 
 ## Schematics
 
@@ -228,7 +234,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 
 - [1995 - M8205 - DOC - 950272-01-002 - IERN MULT MULT BROADVEW CASTLE FRANK SHERBOURNE YCNGE.kicad_sch](KICAD/1995%20-%20M8205%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE.kicad_sch)
 - [M8205.kicad_sym](KICAD/M8205.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
