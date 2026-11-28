@@ -1,5 +1,5 @@
 # 1987 - 8205-03-005 - INSULATING WAFER (USED ON PCB 14-147 & 14-148) - DRN GEB - ENG GEB MAY - ISS 1.png
-Wiki page: [M8205](../../../../PAGES/M8205.md)
+Wiki page: [M8205](../)
 
 
 - **Year:** 1987 (title block date)

@@ -1,5 +1,5 @@
 # 1995 - M8205 - Distribution Amp 003.jpg
-Wiki page: [M8205](../../../../PAGES/M8205.md)
+Wiki page: [M8205](../)
 
 
 - **Year:** 1995 (module estimate (manual_issue))
